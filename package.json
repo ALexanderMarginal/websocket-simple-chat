@@ -1,6 +1,13 @@
 {
-  "name": "websocket-simple-chat",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "name": "socket-chat-example",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2"
+  }
 }
